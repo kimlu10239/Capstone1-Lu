@@ -1,7 +1,15 @@
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 body {
 	font-family: 'Source Code Pro', monospace;
+}
+
+.navbar-brand{
+	font-weight: bold;
 }
 
 #home {
@@ -13,24 +21,74 @@ body {
 	background-image: url(https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
-
-	
+	background-position: bottom;	
 }
+
 #home .row{
 	height: 30vh;
-	
+}
+
+#home h1,h2,h4{
+	font-weight: bolder;
 }
 
 #home h4{
 	text-indent: 10%;
 }
 
+#aboutMe img{
+	height: 100%;
+}
+
+#aboutMe div{
+	padding-bottom: 1rem;
+}
+
 #tagline{
  color: ghostwhite;
 }
 
-footer {
-
+#projects{
+	background-color: slategrey;
 }
 
+#projects h2{
+	text-align: center;
+}
+
+#tools h2,h3{
+	text-align: center;
+	font-weight: bolder;
+}
+
+#Tools img{
+	width: 120px;
+}
+
+
+#otherTools img{
+	width: 80px;
+}
+
+#gmap_canvas {
+	height: 35vh;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+}
+
+#flinks a{
+	text-decoration: none;
+	color: orange;
+}
+
+#flinks p{
+	color: white;
+}
+
+.fab{
+	color: white;
+	font-size: 2rem;
+}

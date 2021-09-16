@@ -43,7 +43,7 @@
 	<!-- Banner -->
 	<section id="home">
 		<div class="row">
-			<div class="col-6 d-flex flex-column justify-content-center pl-4" id="tagline">
+			<div class="col-md-6 d-flex flex-column justify-content-center pl-4 pl-md-5" id="tagline">
 				<h1>Hi,</h1>
 				<h2>I'm Kimberly Lu.</h2>
 				<h4>Dedicated.</h4>
@@ -52,22 +52,113 @@
 		</div>
 	</section>
 	<!-- About Me -->
-
+	<section class="container my-5 pt-3" id="aboutMe">
+		
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-5 d-flex justify-content-center">
+				<img src="./images/Profile_Kimberly Lu.jpg" class="rounded-circle img-fluid">
+			</div>
+			<div class="col-md-5 d-flex flex-column justify-content-center">
+			<h2 class="my-3">About me:</h2>	
+			<p class="text-justify">
+				A highly organized, highly analytical, dedicated, and industrious individual seeking a fulfilling career in the Software Development field. A fast learner and is easily trainable with a keen eye for detail. My strong leadership ability, time management, organizational skills can complement or add to any team setting.
+				<!-- consider revising content-->
+			</p>
+			</div>	
+		</div>	
+	</section>	
 	<!-- Projects -->
-	<section id="projects">
+	<section class="py-4" id="projects">
+		<h2>Projects</h2>
+
 	</section>
 	<!-- Tools -->
-	<section id="tools">
+	<section class="container my-3"id="tools">
+		<h2>Core Tools</h2>
+			<div class="d-flex flex-row justify-content-center flex-wrap mb-2" id="Tools">
+				<img src="./images/logo-html5.png" class="img-fluid">
+				<img src="./images/logo-css3.png" class="img-fluid">
+				<img src="./images/logo-javascript.png" class="img-fluid">
+			</div>
+
+		<h3>Other Tools</h3>
+			<div class="d-flex flex-row justify-content-center flex-wrap my-3" id="otherTools">
+				<img src="./images/logo-mongodb.png" class="img-fluid">
+				<img src="./images/logo-nodejs.png" class="img-fluid">
+				<img src="./images/logo-expressjs.png" class="img-fluid">
+				<img src="./images/logo-react.png" class="img-fluid">
+				<img src="./images/logo-heroku.png" class="img-fluid">
+				<img src="./images/logo-git.png" class="img-fluid">
+				<img src="./images/logo-sublime-text-3.png" class="img-fluid">
+				<img src="./images/logo-postman.png" class="img-fluid">
+				<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
+			</div>
 	</section>
 	<!-- Contact -->
-	<section id="contact">
+	<hr>
+	<section class="my-3 px-3" id="contact">
+		<div class="row">
+			<div class="col-md-6 my-4">
+				<h4 class="text-center">Find Us!</h4>
+				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=melchor%20hall%20UP%20diliman&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			</div>
+			<div class="col-md-6 my-4">
+				<h4 class="text-center">Get in touch</h4>
+				<form>
+					<!-- name input -->
+					<div class="form-group">
+						<label for="Name">Name:</label>
+						<input type="text" name="name" id="Name" placeholder="Jane Doe" class="form-control">
+					</div>
+						<!-- email input -->
+						<div class="form-group">
+							<label for="txt-email">Email:</label>
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
+						</div>
+					<!-- message input -->
+					<div class="form-group">
+						<label for="txt-textarea">Message:</label>
+						<textarea class="form-control" id="txt-textarea" rows="4"></textarea>
+					</div>
+					<button type="submit" class="btn btn-success form-control">Send</button>
+				</form>	
+			</div>
+		</div>
 	</section>
+
 	<!-- Footer -->
+	<footer class="bg-dark text-white py-3 px-3">
+		<!-- sections | -->
+		<div class="d-none d-md-block">
+			<div class="d-flex justify-content-center" id="flinks">
+				<a class="px-3" href="#home">Home</a>
+				<p>|</p>
+				<a class="px-3" href="#projects">Projects</a>
+				<p>|</p>
+				<a class="px-3" href="#tools">Tools</a>
+				<p>|</p>
+				<a class="px-3" href="#contact">Contact</a>
+			</div>
+		</div>
+		<!-- socmed icons -->
+		<div class="d-flex justify-content-center">
+			<a href="https://web.facebook.com/poofaloo" target="_blank" class="mx-3">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/kimberly-rose-lu-1bb59836/" target="_blank" class="mx-3">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://gitlab.com/kimlu10239" target="_blank" class="mx-3">
+				<i class="fab fa-gitlab"></i>
+			</a>
+		</div>
+	</footer>
 
 	
 
 	<!-- js dependencies -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/9f4bd8e7ef.js" crossorigin="anonymous"></script>
 </body>
 </html>
