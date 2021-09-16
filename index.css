@@ -1,0 +1,36 @@
+
+
+body {
+	font-family: 'Source Code Pro', monospace;
+}
+
+#home {
+	/*margin-top: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;*/
+
+	height: 30vh;
+	background-image: url(https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+	
+}
+#home .row{
+	height: 30vh;
+	
+}
+
+#home h4{
+	text-indent: 10%;
+}
+
+#tagline{
+ color: ghostwhite;
+}
+
+footer {
+
+}
+
