@@ -10,7 +10,9 @@ body {
 
 .navbar-brand{
 	font-weight: bold;
+	color: orange !important;
 }
+
 
 #home {
 	/*margin-top: 4rem;
@@ -21,7 +23,8 @@ body {
 	background-image: url(https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;	
+	background-position: center;
+
 }
 
 #home .row{
@@ -33,8 +36,13 @@ body {
 }
 
 #home h4{
-	text-indent: 10%;
+	padding-left: 10%;
 }
+
+#tagline{
+ color: ghostwhite;
+}
+
 
 #aboutMe img{
 	height: 100%;
@@ -44,16 +52,71 @@ body {
 	padding-bottom: 1rem;
 }
 
-#tagline{
- color: ghostwhite;
+#skills{
+	background-color: slategrey;
+}
+
+#skills i{
+	font-size: 4rem;
+	color: orange;
+}
+
+#skills p{
+	font-family: monospace;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+
 }
 
 #projects{
-	background-color: slategrey;
+	background-color: black;
+}
+
+#projects .card{
+	padding-left: 0;
+	padding-right: 0;
+	border: 0 !important;
 }
 
 #projects h2{
 	text-align: center;
+	color: lightgrey;
+}
+
+#projects h4{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: darkslategray;
+}
+
+#projects h5{
+	font-size: 0.75rem;
+	font-weight: bolder;
+	color: white;
+}
+
+.card{
+	text-align: right;
+}
+
+.card-img-top{
+	height: 60%;
+}
+
+.card-body{
+	padding-top: 0.5rem;
+	padding-right: 0.55rem;
+}
+
+.card-title {
+	font-size: 1.5 rem;
+	font-weight: bolder;
+	margin-bottom: 0.5rem;
+}
+
+.card-text {
+	margin-bottom: 0.5rem;
 }
 
 #tools h2,h3{
@@ -71,9 +134,10 @@ body {
 }
 
 #gmap_canvas {
-	height: 35vh;
-	width: 100%;
+	height: 30vh;
+	width: 90%;
 }
+
 
 footer {
 	text-align: center;
@@ -84,11 +148,11 @@ footer {
 	color: orange;
 }
 
-#flinks p{
-	color: white;
-}
-
-.fab{
+footer .fab{
 	color: white;
 	font-size: 2rem;
+}
+
+#end {
+	font-size: 0.75rem;
 }
